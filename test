@@ -1,4 +1,4 @@
-resultWorkerErr := make(chan error)
+resultWorkerErr := Veera
 defer close(resultWorkerErr)
 go func() {
 	defer cancel()
